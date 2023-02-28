@@ -12,34 +12,24 @@
           a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5YD1YHLC4X"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-5YD1YHLC4X');
-    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Games, Playstation, PSN, Buy Games, Sell Games, Used Games, New Games">
-    <meta name="description" content="Buy and sell new or used games at great prices">
+    <meta name="keywords" content="Games, Playstation, PSN, Buy Games, Sell Games, Used Games, New Games, Checkout, Pay">
+    <meta name="description" content="Checkout page. Pay with your preferred method">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Game Hub | Home</title>
+    <title>Game Hub | Checkout</title>
   </head>
   <body>
     <header>
       <a class="skip-link" href='#main'>Skip to main content</a>
-      <div class="header__wrapper header__wrapper-wide">
+        <div class="header__wrapper header__wrapper-wide">
             <div class="placeholder"></div>
             <div class="header__logo"></div>
             <div class="header__profile-pic"></div>          
             <div class="explore_none"></div>          
             <div class="explore explore_none">
-              <h1 class="lets-explore">Let's Explore</h1>
+              <div class="lets-explore">Let's Explore</div>
               <div class="univers_of_games">
                 <img src="images/gamehub/the-universe-of-games.png" alt="The Universe Of Games Header">
               </div>
@@ -60,18 +50,18 @@
                                         <!-- Checkbox hack to close the flyin-menu -->
                                         <input type="checkbox" id="ham-burger">
                                         <div class="links back"><a href="../"><img src="images/ico_chevron-left.svg" alt="Go Back">Back</a></div>
-                                        <div class="links"><a href="index.html" class="active"><img src="images/ico_home.svg" alt="Homepage">Home</a></div>
+                                        <div class="links"><a href="index.html"><img src="images/ico_home.svg" alt="Homepage">Home</a></div>
                                         <div class="links"><a href="psn-grid.html"><img src="images/ico_psn.svg" alt="Go to Playstation Games">Playstation</a></div>
                                         <div class="links"><a href="contact.html"><img src="images/ico_contact.svg" alt="Contact Us">Contact</a></div>
                                         <div class="links"><a href="about.html"><img src="images/ico_about.svg" alt="About Us">About</a></div>
                                         <div class="links"><a href="wishlist.html"><img src="images/ico_heart.svg" alt="Open your Wishlist">Wishlist</a></div>
                                         <div class="links"><a href="cart.html"><img src="images/ico_cart.svg" alt="Open Shopping Cart">Shopping Cart</a></div>
-                                        <div class="links"><a href="checkout.html"><img src="images/ico_checkout.svg" alt="Go to Checkout">Checkout</a></div>
+                                        <div class="links"><a href="checkout.html" class="active"><img src="images/ico_checkout.svg" alt="Go to Checkout">Checkout</a></div>
                                         <div class="links"><a href="sellgames.html"><img src="images/ico_sell_games.svg" alt="Sell your Games">Sell Games</a></div>
                                         <div class="links"><a href="profile.html"><img src="images/ico_profile.svg" alt="Open your Profile">Profile</a></div>                                        
                                     </div>
                                 </div>                              
-                          <div class="links"><a href="index.html" class="active"><img class="topmenu__images" src="images/ico_home.svg" alt="Homepage"></a></div>
+                          <div class="links"><a href="index.html"><img class="topmenu__images" src="images/ico_home.svg" alt="Homepage"></a></div>
                           <div class="links"><a href="psn-grid.html"><img class="topmenu__images" src="images/ico_psn.svg" alt="Go to Playstation Games"></a></div>                    
                           <div class="links"><a href="about.html"><img class="topmenu__images" src="images/ico_about.svg" alt="About Us"></a></div>
                           <div class="links"><a href="wishlist.html"><img class="topmenu__images" src="images/ico_heart.svg" alt="Open your Wishlist"></a></div>
@@ -88,19 +78,73 @@
     </header>
     <main id="main">
       <div class="main__wrapper">
-        <section class="index" aria-label="Homepage Main Section">
-              <div class="buy-sell_buttons">
-                <a href="psn-grid.html"><img src="images/button_buy.svg" alt="Click to buy new games"></a>
-                <a href="sellgames.html"><img src="images/button_sell.png" alt="Click to sell your games"></a>
-              </div>
-              <div class="logo__main">
-                <!-- Game Hub Logo -->
-              </div>
-              <div class="apps">
-                <a href="https://play.google.com/store/search?q=game%20hub&c=apps&gl=NO">
-                <img src="images/app_google-play.png" alt="Get the Game Hub app on Google Play"></a>
-                <a href="https://www.apple.com/no/app-store/">
-              <img src="images/app_app-store.png" alt="Get the Game Hub app on the App Store"></a>
+        <section class="checkout" aria-label="Checkout Page | Main Section">
+              <h1>Payment</h1>
+               <div class="checkout__wrapper">
+                    <div class="checkout__cart">
+                        <div class="order row1">Order:</div>
+                        <div class="row1 checkout_items yellow">(2 items)</div>
+                        <div class="amount row1"><span class="yellow">$ </span>149.90</div>
+                        <div class="filler row2">.</div>
+                        <div class="filler row2"> </div>
+                        <div class="amount_before row2 price__before__top yellow"><span class="yellow">$ </span>169.90</div>
+                        <div class="row3 vat">(VAT included if applicable)</div>
+                        <div class="row3 filler"></div>
+                        <div class="row3 filler"></div>
+                        <div class="freight row4">Freight:</div>
+                        <div class="filler row4"></div>
+                        <div class="amountfreight row4"><span class="yellow">$ </span>4.95</div>
+                        <div class="address row5 yellow">(Profile address used):</div>
+                        <div class="change row5 yellow"><a class="change" href="profile.html">(Change)</a></div>
+                        <div class="filler change row5"></div>
+                        <div class="total row6">Total:</div>
+                        <div class="checkout_items yellow row6">(2 items)</div>
+                        <div class="totalamount row6"><span class="yellow">$ </span>154.85</div>
+                        <div class="filler row7"></div>
+                        <div class="filler row7"></div>
+                        <div class="price__before__bottom yellow row7"><span class="yellow">$ </span>174.85</div>
+                        <div class="row8 vat">(VAT included if applicable)</div>
+                        <div class="row8 filler"></div>
+                        <div class="filler row8"></div>
+                    </div>
+                    <div class="payment-options">
+                      <img src="images/img_payment-options.png" alt="Choose your preferred method of payment">
+                    </div>
+                    <div class="visa">
+                    <fieldset>
+                        <legend>Card Details</legend>
+                            <form class="creditcard__visa">
+                              <div class="creditcard__visa">
+                                <div class="creditcard__visa_form_wrapper">
+                                    <div class="form_cardnumber">
+                                        <label for="cardnumber">Card Number:<span class="required">*</span></label>
+                                        <input type="text" name="cardnumber" id="cardnumber" placeholder="Card Number" aria-label="Enter your Card Number" required>
+                                    </div>
+                                </div>
+                                    <div class="creditcard__visa_form_wrapper">
+                                      <div class="form_exp_date">
+                                        <label for="exp_date">Expiration date:<span class="required">*</span></label>
+                                        <input type="text" name="exp_date" id="exp_date" placeholder="Expiration Date" aria-label="Cards Expiration Date" required>
+                                      </div>
+                                    </div>                                    
+                                    <div class="creditcard__visa_form_wrapper">
+                                      <div class="form_cvc">
+                                        <label for="cvc">CVC:<span class="required">*</span></label>
+                                        <input type="text" name="cvc" id="cvc" placeholder="CVC Code" aria-label="Cards CVC code" required>              
+                                      </div>
+                                    </div>                                    
+                                <div class="paynow-button"><a href="checkout_success.html" role="button">Pay Now</a></div>
+                              </div>
+                              <!-- Button hidden and mimicked for now -->
+                              <!-- <button type="submit">Sign In</button> -->
+                            </form>
+                            <div class="checkout__bottom">
+                            <a href="psn-grid.html"><span class="red">Cancel order</span></a>
+                            <p class="terms yellow">By clicking “Pay Now” I agree to and confirm that I have read the shopping terms.</p>
+                            </div>
+                      </fieldset>
+                      <div class="spacer"> </div>
+                </div>
               </div>
         </section>
       </div>
@@ -111,13 +155,13 @@
                     <div class="footer__sitenav">Site Navigation
                       <div class="footer__sitenav" role="navigation" aria-label="Footer Site Navigation">              
                         <div class="links widescreen"><div class="back"><a href="../"><img src="images/ico_chevron-left.svg" alt="Go Back">Back</a></div></div>
-                        <div class="links"><a href="index.html" class="active"><img src="images/ico_home.svg" alt="Homepage">Home</a></div>
+                        <div class="links"><a href="index.html"><img src="images/ico_home.svg" alt="Homepage">Home</a></div>
                         <div class="links widescreen"><a href="psn-grid.html"><img src="images/ico_psn.svg" alt="Go to Playstation Games">Playstation</a></div>
                         <div class="links"><a href="contact.html"><img src="images/ico_contact.svg" alt="Contact US">Contact</a></div>
                         <div class="links"><a href="about.html"><img src="images/ico_about.svg" alt="About Us">About</a></div>
                         <div class="links widescreen"><a href="wishlist.html"><img src="images/ico_heart.svg" alt="Open your Wishlist">Wishlist</a></div>
                         <div class="links"><a href="cart.html"><img src="images/ico_cart.svg" alt="Open Shopping Cart">Shopping Cart</a></div>
-                        <div class="links widescreen"><a href="checkout.html"><img src="images/ico_checkout.svg" alt="Go to Checkout">Checkout</a></div>
+                        <div class="links widescreen"><a href="checkout.html" class="active"><img src="images/ico_checkout.svg" alt="Go to Checkout">Checkout</a></div>
                         <div class="links widescreen"><a href="sellgames.html"><img src="images/ico_sell_games.svg" alt="Sell your Games">Sell Games</a></div>
                         <div class="links widescreen"><a href="profile.html"><img src="images/ico_profile.svg" alt="Open your Profile">Profile</a></div>
                       </div>

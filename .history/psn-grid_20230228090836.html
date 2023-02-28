@@ -12,26 +12,19 @@
           a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5YD1YHLC4X"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-5YD1YHLC4X');
-    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="keywords"
-      content="Games, Playstation, PSN, Buy Games, Sell Games, Used Games, New Games, Shopping Cart">
+      content="Games, Playstation, PSN, Buy Games, Sell Games, Used Games, New Games"
+   >
     <meta
       name="description"
-      content="Shopping Cart | See what you have added so far">
+      content="All of our playstation games in one place"
+   >
     <link rel="stylesheet" href="css/main.css">
-    <title>Game Hub | Shopping Cart</title>
+    <title>Game Hub | Playstation Games</title>
   </head>
   <body>
     <header>
@@ -89,7 +82,7 @@
                     >
                   </div>
                   <div class="links">
-                    <a href="psn-grid.html"
+                    <a href="psn-grid.html" class="active"
                       ><img
                         src="images/ico_psn.svg"
                         alt="Go to Playstation Games"
@@ -118,7 +111,7 @@
                     >
                   </div>
                   <div class="links">
-                    <a href="cart.html" class="active"
+                    <a href="cart.html"
                       ><img
                         src="images/ico_cart.svg"
                         alt="Open Shopping Cart"
@@ -160,7 +153,7 @@
                ></a>
               </div>
               <div class="links">
-                <a href="psn-grid.html"
+                <a href="psn-grid.html" class="active"
                   ><img
                     class="topmenu__images"
                     src="images/ico_psn.svg"
@@ -184,7 +177,7 @@
                ></a>
               </div>
               <div class="links">
-                <a href="cart.html" class="active"
+                <a href="cart.html"
                   ><img
                     class="topmenu__images"
                     src="images/ico_cart.svg"
@@ -223,11 +216,8 @@
     </header>
     <main id="main">
       <div class="main__wrapper">
-        <section class="cart" aria-label="Shopping Cart | Main Section">
-          <h1>Shopping Cart</h1>
-          <div class="buy-games__left">
-            <a href="psn-grid.html"> Back to Games</a>
-          </div>
+        <section class="psn-grid" aria-label="Playstation Page | Main Section">
+          <h1>Playstation</h1>
           <div class="image-mockup psn__wrapper">
             <div class="container">
               <div
@@ -296,11 +286,155 @@
               </div>
               <div class="psn__buttons">
                 <a href="cart.html" role="button"
-                  ><div class="cta">Remove</div></a
+                  ><div class="cta">Add to cart</div></a
                 >
                 <a
                   href="product_details_ps5-forge-legend-disc.html"
                   role="button"
+                  ><div class="cta">View Details</div></a
+                >
+              </div>
+            </div>
+            <div class="container">
+              <div class="items ps5-forge-legend-key" id="ps5-forge-legend-key">
+                <div class="psnleft game-title">
+                  <h2 class="h4 yellow type">Forge Legend</h2>
+                </div>
+                <div class="game-cover">
+                  <img
+                    src="images/covers/cover-ps5-forge-legend.png"
+                    alt="PS5 Forge Legend | Key Only"
+                 >
+                </div>
+                <div class="psnleft backtogames">
+                  <a href="checkout.html">Go to checkout</a>
+                </div>
+                <div class="small psnleft release-date">Release Date:</div>
+                <div class="small psnright reldate">2022/09/16</div>
+                <div class="small psnleft type">Type:</div>
+                <div class="small psncenter type-ico">
+                  <img src="images/ico_key.svg" alt="Disc">
+                </div>
+                <div class="small psnright type-text">Key</div>
+                <div class="small psnleft region">Region:</div>
+                <div class="small psncenter region-ico">
+                  <img src="images/ico_europe.svg" alt="Region | Europe">
+                </div>
+                <div class="small psnright region-text">Europe</div>
+                <div class="small psnleft platform">Platform:</div>
+                <div class="small psncenter platform-ico">
+                  <img src="images/ico_psn.svg" alt="Playstation 5">
+                </div>
+                <div class="small psnright platform-text">Playstation 5</div>
+                <div class="small yellow psnleft useroffers">
+                  Offer from 7 sellers
+                </div>
+                <div class="psnleft gsrating">Gamespot Rating:</div>
+                <div class="psnright rating">8/10</div>
+                <div class="small psnleft readreview">
+                  <a href="https://www.gamespot.com/games/reviews/"
+                    >Read review</a
+                  >
+                </div>
+                <div class="togglewishlist">
+                  <a class="small psnright" href="wishlist.html"
+                    ><img
+                      class="small psnright"
+                      src="images/ico_heart_+.svg"
+                      alt="Add to wishlist"
+                 ></a>
+                </div>
+                <div class="ourprice psnright">Our Price:</div>
+                <div class="number psnleft">
+                  -
+                  <div class="howmany">1</div>
+                  +
+                </div>
+                <div class="price psnright">
+                  <span class="dollar yellow">.</span>69.95
+                </div>
+                <div class="price__before psnright">
+                  <span class="dollar yellow">.</span>79.95
+                </div>
+              </div>
+              <div class="psn__buttons">
+                <a href="cart.html" role="button"
+                  ><div class="cta">Add to cart</div></a
+                >
+                <a
+                  href="product_details_ps5-forge-legend-key.html"
+                  role="button"
+                  ><div class="cta">View Details</div></a
+                >
+              </div>
+            </div>
+            <div class="container">
+              <div class="items ps4-forge-legend-key" id="ps4-forge-legend-key">
+                <div class="psnleft game-title">
+                  <h2 class="h4 yellow type">Forge Legend</h2>
+                </div>
+                <div class="game-cover">
+                  <img
+                    src="images/covers/cover-ps4-forge-legend.png"
+                    alt="PS4 Forge Legend | Key Only"
+                 >
+                </div>
+                <div class="psnleft backtogames">
+                  <a href="checkout.html">Go to checkout</a>
+                </div>
+                <div class="small psnleft release-date">Release Date:</div>
+                <div class="small psnright reldate">2022/09/16</div>
+                <div class="small psnleft type">Type:</div>
+                <div class="small psncenter type-ico">
+                  <img src="images/ico_key.svg" alt="Disc">
+                </div>
+                <div class="small psnright type-text">Key</div>
+                <div class="small psnleft region">Region:</div>
+                <div class="small psncenter region-ico">
+                  <img src="images/ico_europe.svg" alt="Region | Europe">
+                </div>
+                <div class="small psnright region-text">Europe</div>
+                <div class="small psnleft platform">Platform:</div>
+                <div class="small psncenter platform-ico">
+                  <img src="images/ico_psn.svg" alt="Playstation 5">
+                </div>
+                <div class="small psnright platform-text">Playstation 4</div>
+                <div class="small yellow psnleft useroffers">
+                  Offer from 3 sellers
+                </div>
+                <div class="psnleft gsrating">Gamespot Rating:</div>
+                <div class="psnright rating">8/10</div>
+                <div class="small psnleft readreview">
+                  <a href="https://www.gamespot.com/games/reviews/"
+                    >Read review</a
+                  >
+                </div>
+                <div class="togglewishlist">
+                  <a class="small psnright" href="wishlist.html"
+                    ><img
+                      class="small psnright"
+                      src="images/ico_heart_+.svg"
+                      alt="Add to wishlist"
+                 ></a>
+                </div>
+                <div class="ourprice psnright">Our Price:</div>
+                <div class="number psnleft">
+                  -
+                  <div class="howmany">1</div>
+                  +
+                </div>
+                <div class="price psnright">
+                  <span class="dollar yellow">.</span>59.95
+                </div>
+                <div class="price__before psnright">
+                  <span class="dollar yellow">.</span>69.95
+                </div>
+              </div>
+              <div class="psn__buttons">
+                <a href="cart.html" role="button"
+                  ><div class="cta">Add to cart</div></a
+                >
+                <a href="#" role="button"
                   ><div class="cta">View Details</div></a
                 >
               </div>
@@ -369,7 +503,220 @@
               </div>
               <div class="psn__buttons">
                 <a href="cart.html" role="button"
-                  ><div class="cta">Remove</div></a
+                  ><div class="cta">Add to cart</div></a
+                >
+                <a href="#" role="button"
+                  ><div class="cta">View Details</div></a
+                >
+              </div>
+            </div>
+            <div class="container">
+              <div class="items ps4-cyberpunk-key" id="ps4-cyberpunk-key">
+                <div class="psnleft game-title">
+                  <h2 class="h4 yellow type">Cyberpunk</h2>
+                </div>
+                <div class="game-cover">
+                  <img
+                    src="images/covers/cover-ps4-cyberpunk.png"
+                    alt="PS4 Cyberpunk | Key Only"
+                 >
+                </div>
+                <div class="psnleft backtogames">
+                  <a href="checkout.html">Go to checkout</a>
+                </div>
+                <div class="small psnleft release-date">Release Date:</div>
+                <div class="small psnright reldate">2022/09/16</div>
+                <div class="small psnleft type">Type:</div>
+                <div class="small psncenter type-ico">
+                  <img src="images/ico_key.svg" alt="Disc">
+                </div>
+                <div class="small psnright type-text">Key</div>
+                <div class="small psnleft region">Region:</div>
+                <div class="small psncenter region-ico">
+                  <img src="images/ico_europe.svg" alt="Region | Europe">
+                </div>
+                <div class="small psnright region-text">Europe</div>
+                <div class="small psnleft platform">Platform:</div>
+                <div class="small psncenter platform-ico">
+                  <img src="images/ico_psn.svg" alt="Playstation 5">
+                </div>
+                <div class="small psnright platform-text">Playstation 4</div>
+                <div class="small yellow psnleft useroffers">
+                  Offer from 4 sellers
+                </div>
+                <div class="psnleft gsrating">Gamespot Rating:</div>
+                <div class="psnright rating">8/10</div>
+                <div class="small psnleft readreview">
+                  <a href="https://www.gamespot.com/games/reviews/"
+                    >Read review</a
+                  >
+                </div>
+                <div class="togglewishlist">
+                  <a class="small psnright" href="wishlist.html"
+                    ><img
+                      class="small psnright"
+                      src="images/ico_heart_+.svg"
+                      alt="Add to wishlist"
+                 ></a>
+                </div>
+                <div class="ourprice psnright">Our Price:</div>
+                <div class="number psnleft">
+                  -
+                  <div class="howmany">1</div>
+                  +
+                </div>
+                <div class="price psnright">
+                  <span class="dollar yellow">.</span>35.95
+                </div>
+                <div class="price__before psnright">
+                  <span class="dollar yellow">.</span>49.95
+                </div>
+              </div>
+              <div class="psn__buttons">
+                <a href="cart.html" role="button"
+                  ><div class="cta">Add to cart</div></a
+                >
+                <a href="#" role="button"
+                  ><div class="cta">View Details</div></a
+                >
+              </div>
+            </div>
+            <div class="container">
+              <div class="items ps5-racing-key" id="ps5-racing-key">
+                <div class="psnleft game-title">
+                  <h2 class="h4 yellow type">Racing</h2>
+                </div>
+                <div class="game-cover">
+                  <img
+                    src="images/covers/cover-ps5-racing.png"
+                    alt="PS5 Forge Legend"
+                 >
+                </div>
+                <div class="psnleft backtogames">
+                  <a href="checkout.html">Go to checkout</a>
+                </div>
+                <div class="small psnleft release-date">Release Date:</div>
+                <div class="small psnright reldate">2022/09/16</div>
+                <div class="small psnleft type">Type:</div>
+                <div class="small psncenter type-ico">
+                  <img src="images/ico_key.svg" alt="Disc">
+                </div>
+                <div class="small psnright type-text">Key</div>
+                <div class="small psnleft region">Region:</div>
+                <div class="small psncenter region-ico">
+                  <img src="images/ico_europe.svg" alt="Region | Europe">
+                </div>
+                <div class="small psnright region-text">Europe</div>
+                <div class="small psnleft platform">Platform:</div>
+                <div class="small psncenter platform-ico">
+                  <img src="images/ico_psn.svg" alt="Playstation 5">
+                </div>
+                <div class="small psnright platform-text">Playstation 5</div>
+                <div class="small yellow psnleft useroffers">
+                  Offer from 8 sellers
+                </div>
+                <div class="psnleft gsrating">Gamespot Rating:</div>
+                <div class="psnright rating">8/10</div>
+                <div class="small psnleft readreview">
+                  <a href="https://www.gamespot.com/games/reviews/"
+                    >Read review</a
+                  >
+                </div>
+                <div class="togglewishlist">
+                  <a class="small psnright" href="wishlist.html"
+                    ><img
+                      class="remove small psnright"
+                      src="images/ico_heart.svg"
+                      alt="Add to wishlist"
+                 ></a>
+                </div>
+                <div class="ourprice psnright">Our Price:</div>
+                <div class="number psnleft">
+                  -
+                  <div class="howmany">1</div>
+                  +
+                </div>
+                <div class="price psnright">
+                  <span class="dollar yellow">.</span>49.95
+                </div>
+                <div class="price__before psnright">
+                  <span class="dollar yellow">.</span>69.95
+                </div>
+              </div>
+              <div class="psn__buttons">
+                <a href="cart.html" role="button"
+                  ><div class="cta">Add to cart</div></a
+                >
+                <a href="#" role="button"
+                  ><div class="cta">View Details</div></a
+                >
+              </div>
+            </div>
+            <div class="container">
+              <div class="items ps5-boxer-disc" id="ps5-boxer-disc">
+                <div class="psnleft game-title">
+                  <h2 class="h4 yellow type">Boxer</h2>
+                </div>
+                <div class="game-cover">
+                  <img
+                    src="images/covers/cover-ps5-boxer.png"
+                    alt="PS5 Forge Legend"
+                 >
+                </div>
+                <div class="psnleft backtogames">
+                  <a href="checkout.html">Go to checkout</a>
+                </div>
+                <div class="small psnleft release-date">Release Date:</div>
+                <div class="small psnright reldate">2022/09/16</div>
+                <div class="small psnleft type">Type:</div>
+                <div class="small psncenter type-ico">
+                  <img src="images/ico_disc.svg" alt="Disc">
+                </div>
+                <div class="small psnright type-text">Disc</div>
+                <div class="small psnleft region">Region:</div>
+                <div class="small psncenter region-ico">
+                  <img src="images/ico_europe.svg" alt="Region | Europe">
+                </div>
+                <div class="small psnright region-text">Europe</div>
+                <div class="small psnleft platform">Platform:</div>
+                <div class="small psncenter platform-ico">
+                  <img src="images/ico_psn.svg" alt="Playstation 5">
+                </div>
+                <div class="small psnright platform-text">Playstation 5</div>
+                <div class="small yellow psnleft useroffers">
+                  Offer from 3 sellers
+                </div>
+                <div class="psnleft gsrating">Gamespot Rating:</div>
+                <div class="psnright rating">8/10</div>
+                <div class="small psnleft readreview">
+                  <a href="https://www.gamespot.com/games/reviews/"
+                    >Read review</a
+                  >
+                </div>
+                <div class="togglewishlist">
+                  <a class="small psnright" href="wishlist.html"
+                    ><img
+                      class="small psnright"
+                      src="images/ico_heart_+.svg"
+                      alt="Add to wishlist"
+                 ></a>
+                </div>
+                <div class="ourprice psnright">Our Price:</div>
+                <div class="number psnleft">
+                  -
+                  <div class="howmany">1</div>
+                  +
+                </div>
+                <div class="price psnright">
+                  <span class="dollar yellow">.</span>29.95
+                </div>
+                <div class="price__before psnright">
+                  <span class="dollar yellow">.</span>35.95
+                </div>
+              </div>
+              <div class="psn__buttons">
+                <a href="cart.html" role="button"
+                  ><div class="cta">Add to cart</div></a
                 >
                 <a href="#" role="button"
                   ><div class="cta">View Details</div></a
@@ -377,50 +724,8 @@
               </div>
             </div>
           </div>
-          <div class="checkout__cart">
-            <div class="order row1">Order:</div>
-            <div class="row1 checkout_items yellow">(2 items)</div>
-            <div class="amount row1"><span class="yellow">$ </span>149.90</div>
-            <div class="filler row2">.</div>
-            <div class="filler row2"></div>
-            <div class="amount_before row2 price__before__top yellow">
-              <span class="yellow">$ </span>169.90
-            </div>
-            <div class="row3 vat">(VAT included if applicable)</div>
-            <div class="row3 filler"></div>
-            <div class="row3 filler"></div>
-            <div class="freight row4">Freight:</div>
-            <div class="filler row4"></div>
-            <div class="amountfreight row4">
-              <span class="yellow">$ </span>4.95
-            </div>
-            <div class="address row5 yellow">(Profile address used):</div>
-            <div class="change row5 yellow">
-              <a class="change" href="profile.html">(Change)</a>
-            </div>
-            <div class="filler change row5"></div>
-            <div class="total row6">Total:</div>
-            <div class="checkout_items yellow row6">(2 items)</div>
-            <div class="totalamount row6">
-              <span class="yellow">$ </span>154.85
-            </div>
-            <div class="filler row7"></div>
-            <div class="filler row7"></div>
-            <div class="price__before__bottom yellow row7">
-              <span class="yellow">$ </span>174.85
-            </div>
-            <div class="row8 vat">(VAT included if applicable)</div>
-            <div class="row8 filler"></div>
-            <div class="filler row8"></div>
-          </div>
-          <div class="cart-checkout">
-            <a href="checkout.html" role="button"
-              ><div class="cta">Checkout</div></a
-            >
-          </div>
-          <a href="psn-grid.html"><span class="red">Cancel order</span></a>
-          <div class="spacer"></div>
         </section>
+        <div class="spacer"></div>
       </div>
     </main>
     <footer>
@@ -449,7 +754,7 @@
                 >
               </div>
               <div class="links widescreen">
-                <a href="psn-grid.html"
+                <a href="psn-grid.html" class="active"
                   ><img
                     src="images/ico_psn.svg"
                     alt="Go to Playstation Games"
@@ -478,7 +783,7 @@
                 >
               </div>
               <div class="links">
-                <a href="cart.html" class="active"
+                <a href="cart.html"
                   ><img
                     src="images/ico_cart.svg"
                     alt="Open Shopping Cart"

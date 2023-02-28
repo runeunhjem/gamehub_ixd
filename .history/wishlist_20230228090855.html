@@ -12,26 +12,16 @@
           a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5YD1YHLC4X"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-5YD1YHLC4X');
-    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="keywords"
-      content="Games, Playstation, PSN, Buy Games, Sell Games, Used Games, New Games, Shopping Cart">
-    <meta
-      name="description"
-      content="Shopping Cart | See what you have added so far">
+      content="Games, Playstation, PSN, Buy Games, Sell Games, Used Games, New Games, Wishlist"
+   >
+    <meta name="description" content="Wishlist | What are you wishing for?">
     <link rel="stylesheet" href="css/main.css">
-    <title>Game Hub | Shopping Cart</title>
+    <title>Game Hub | Wishlist</title>
   </head>
   <body>
     <header>
@@ -110,7 +100,7 @@
                     >
                   </div>
                   <div class="links">
-                    <a href="wishlist.html"
+                    <a href="wishlist.html" class="active"
                       ><img
                         src="images/ico_heart.svg"
                         alt="Open your Wishlist"
@@ -118,7 +108,7 @@
                     >
                   </div>
                   <div class="links">
-                    <a href="cart.html" class="active"
+                    <a href="cart.html"
                       ><img
                         src="images/ico_cart.svg"
                         alt="Open Shopping Cart"
@@ -176,7 +166,7 @@
                ></a>
               </div>
               <div class="links">
-                <a href="wishlist.html"
+                <a href="wishlist.html" class="active"
                   ><img
                     class="topmenu__images"
                     src="images/ico_heart.svg"
@@ -184,7 +174,7 @@
                ></a>
               </div>
               <div class="links">
-                <a href="cart.html" class="active"
+                <a href="cart.html"
                   ><img
                     class="topmenu__images"
                     src="images/ico_cart.svg"
@@ -223,10 +213,15 @@
     </header>
     <main id="main">
       <div class="main__wrapper">
-        <section class="cart" aria-label="Shopping Cart | Main Section">
-          <h1>Shopping Cart</h1>
-          <div class="buy-games__left">
-            <a href="psn-grid.html"> Back to Games</a>
+        <section class="wishlist" aria-label="Wishlist | Main Section">
+          <h1>Wishlist</h1>
+          <div class="wishlist-links">
+            <div class="buy-games__left wl-left">
+              <a href="psn-grid.html"> Back to Games</a>
+            </div>
+            <div class="goto-cart wl-right">
+              <a href="cart.html">Go to cart </a>
+            </div>
           </div>
           <div class="image-mockup psn__wrapper">
             <div class="container">
@@ -296,7 +291,7 @@
               </div>
               <div class="psn__buttons">
                 <a href="cart.html" role="button"
-                  ><div class="cta">Remove</div></a
+                  ><div class="cta">Add to cart</div></a
                 >
                 <a
                   href="product_details_ps5-forge-legend-disc.html"
@@ -369,7 +364,78 @@
               </div>
               <div class="psn__buttons">
                 <a href="cart.html" role="button"
-                  ><div class="cta">Remove</div></a
+                  ><div class="cta">Add to cart</div></a
+                >
+                <a href="#" role="button"
+                  ><div class="cta">View Details</div></a
+                >
+              </div>
+            </div>
+            <div class="container">
+              <div class="items ps5-racing-key" id="ps5-racing-key">
+                <div class="psnleft game-title">
+                  <h2 class="h4 yellow type">Racing</h2>
+                </div>
+                <div class="game-cover">
+                  <img
+                    src="images/covers/cover-ps5-racing.png"
+                    alt="PS5 Forge Legend"
+                 >
+                </div>
+                <div class="psnleft backtogames">
+                  <a href="checkout.html">Go to checkout</a>
+                </div>
+                <div class="small psnleft release-date">Release Date:</div>
+                <div class="small psnright reldate">2022/09/16</div>
+                <div class="small psnleft type">Type:</div>
+                <div class="small psncenter type-ico">
+                  <img src="images/ico_key.svg" alt="Disc">
+                </div>
+                <div class="small psnright type-text">Key</div>
+                <div class="small psnleft region">Region:</div>
+                <div class="small psncenter region-ico">
+                  <img src="images/ico_europe.svg" alt="Region | Europe">
+                </div>
+                <div class="small psnright region-text">Europe</div>
+                <div class="small psnleft platform">Platform:</div>
+                <div class="small psncenter platform-ico">
+                  <img src="images/ico_psn.svg" alt="Playstation 5">
+                </div>
+                <div class="small psnright platform-text">Playstation 5</div>
+                <div class="small yellow psnleft useroffers">
+                  Offer from 8 sellers
+                </div>
+                <div class="psnleft gsrating">Gamespot Rating:</div>
+                <div class="psnright rating">8/10</div>
+                <div class="small psnleft readreview">
+                  <a href="https://www.gamespot.com/games/reviews/"
+                    >Read review</a
+                  >
+                </div>
+                <div class="togglewishlist">
+                  <a class="small psnright" href="wishlist.html"
+                    ><img
+                      class="remove small psnright"
+                      src="images/ico_heart.svg"
+                      alt="Add to wishlist"
+                 ></a>
+                </div>
+                <div class="ourprice psnright">Our Price:</div>
+                <div class="number psnleft">
+                  -
+                  <div class="howmany">1</div>
+                  +
+                </div>
+                <div class="price psnright">
+                  <span class="dollar yellow">.</span>49.95
+                </div>
+                <div class="price__before psnright">
+                  <span class="dollar yellow">.</span>69.95
+                </div>
+              </div>
+              <div class="psn__buttons">
+                <a href="cart.html" role="button"
+                  ><div class="cta">Add to cart</div></a
                 >
                 <a href="#" role="button"
                   ><div class="cta">View Details</div></a
@@ -377,49 +443,27 @@
               </div>
             </div>
           </div>
-          <div class="checkout__cart">
-            <div class="order row1">Order:</div>
-            <div class="row1 checkout_items yellow">(2 items)</div>
-            <div class="amount row1"><span class="yellow">$ </span>149.90</div>
-            <div class="filler row2">.</div>
-            <div class="filler row2"></div>
-            <div class="amount_before row2 price__before__top yellow">
-              <span class="yellow">$ </span>169.90
+          <div class="social-media share">
+            <div class="social-media__text">
+              <p>Share your wishlist on social media:</p>
             </div>
-            <div class="row3 vat">(VAT included if applicable)</div>
-            <div class="row3 filler"></div>
-            <div class="row3 filler"></div>
-            <div class="freight row4">Freight:</div>
-            <div class="filler row4"></div>
-            <div class="amountfreight row4">
-              <span class="yellow">$ </span>4.95
+            <div class="social-media__icons">
+              <a
+                href="https://accounts.snapchat.com/accounts/login?continue=%2Faccounts%2Fsso%3Freferrer%3Dhttps%253A%252F%252Fweb.snapchat.com%252F%26client_id%3Dweb-calling-corp--prod"
+              >
+                <img src="images/ico_snapchat.svg" alt="Find us on Snapchat"
+             ></a>
+              <a href="https://www.facebook.com/">
+                <img src="images/ico_facebook.svg" alt="Find us on Faceboock"
+             ></a>
+              <a href="https://www.instagram.com/">
+                <img src="images/ico_insta.svg" alt="Find us on Instagram"
+             ></a>
+              <a href="https://www.youtube.com/">
+                <img src="images/ico_youtube.svg" alt="Find us on Youtube"
+             ></a>
             </div>
-            <div class="address row5 yellow">(Profile address used):</div>
-            <div class="change row5 yellow">
-              <a class="change" href="profile.html">(Change)</a>
-            </div>
-            <div class="filler change row5"></div>
-            <div class="total row6">Total:</div>
-            <div class="checkout_items yellow row6">(2 items)</div>
-            <div class="totalamount row6">
-              <span class="yellow">$ </span>154.85
-            </div>
-            <div class="filler row7"></div>
-            <div class="filler row7"></div>
-            <div class="price__before__bottom yellow row7">
-              <span class="yellow">$ </span>174.85
-            </div>
-            <div class="row8 vat">(VAT included if applicable)</div>
-            <div class="row8 filler"></div>
-            <div class="filler row8"></div>
           </div>
-          <div class="cart-checkout">
-            <a href="checkout.html" role="button"
-              ><div class="cta">Checkout</div></a
-            >
-          </div>
-          <a href="psn-grid.html"><span class="red">Cancel order</span></a>
-          <div class="spacer"></div>
         </section>
       </div>
     </main>
@@ -470,7 +514,7 @@
                 >
               </div>
               <div class="links widescreen">
-                <a href="wishlist.html"
+                <a href="wishlist.html" class="active"
                   ><img
                     src="images/ico_heart.svg"
                     alt="Open your Wishlist"
@@ -478,7 +522,7 @@
                 >
               </div>
               <div class="links">
-                <a href="cart.html" class="active"
+                <a href="cart.html"
                   ><img
                     src="images/ico_cart.svg"
                     alt="Open Shopping Cart"
